@@ -1,0 +1,9 @@
+
+set prompt \033[32m(gdb) \033[0m
+
+set history save on
+set history size 10000
+set history remove-duplicates unlimited
+set history filename ~/.gdb_history
+
+
